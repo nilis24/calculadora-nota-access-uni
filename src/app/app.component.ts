@@ -45,7 +45,7 @@ export class AppComponent {
   MostrarNota(): void {
     this.nota_access = this.Calcular();
     if(this.nota_access >= 0 && this.nota_access <= 14) {
-      alert("La teva nota és: " + this.nota_access)
+      alert("La teva nota és: " + this.nota_access + " / 14")
     } else {
       alert("Ep! Comprova que totes les notes estan entre 0 i 10")
     }
